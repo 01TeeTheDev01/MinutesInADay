@@ -65,7 +65,7 @@ namespace MinutesInADay
                         return $"{date.ToLongDateString()} has a total of {totalMinutes} minutes according to supplied parameters.";
 
                     default:
-                        return "Month is invalid.";
+                        return "Month is out of scope.";
                 }
             }
 
